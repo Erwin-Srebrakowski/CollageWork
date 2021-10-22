@@ -15,12 +15,19 @@ def display_menu():
         sys.exit()
 
 def choose_pizza():
-    choose_food = input('You can type the frist letter of pizza you want')
-    
-    if (choose_food == 'm' or choose_food == 't' or choose_food == 'p'):
-        print('Baking pizza')
-    else:
-        print('Please type m,p or t')
+
+    while True:
+        choose_food = input('You can type the frist letter of pizza you want')
+
+        if (choose_food == 'm' or choose_food == 't' or choose_food == 'p'):
+            output = True
+            break
+        else:
+            print('Please type m,p or t')
+
+
+
+
 
 def pizza_ready():
     print('Pizza is ready')
