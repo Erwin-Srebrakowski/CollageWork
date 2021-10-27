@@ -1,10 +1,10 @@
 '''
-Ask the user for thir age.
+Ask the user for their age.
 If they are 18 or older, tell them 'You can vote'.
 If they are 17, tell them 'you can learn to drive'.
 If they are 16, tell them 'You can buy a lottery ticket'
 and for everybody else display the message
-'Nobody looks at you strangely if you do a catwheel in public'
+'Nobody looks at you strangely if you do a cartwheel in public'
 '''
 
 
